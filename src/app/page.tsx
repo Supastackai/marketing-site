@@ -27,13 +27,13 @@ export default function Home() {
 
         {/* Content */}
         <div className="relative z-10 text-center max-w-4xl px-4">
-          <motion.h1
+            <motion.h1
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
             className="text-6xl md:text-8xl font-bold bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent mb-8"
           >
-            Digital Marketing<br />Reimagined
+            Growth Science<br />for Modern Businesses
           </motion.h1>
           
           <motion.p
@@ -42,7 +42,7 @@ export default function Home() {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="text-xl md:text-2xl text-gray-300 mb-12"
           >
-            We help brands grow through innovative digital strategies, creative campaigns, and data-driven results.
+            We apply scientific methods to marketing, delivering measurable growth through experimentation and optimization.
           </motion.p>
           
           <motion.div
@@ -71,10 +71,10 @@ export default function Home() {
               whileHover={{ scale: 1.05 }}
               transition={{ type: "spring", stiffness: 300 }}
             >
-              <div className="text-purple-400 text-4xl mb-4">🚀</div>
-              <h3 className="text-2xl font-bold text-white mb-4">Proven Results</h3>
+              <div className="text-purple-400 text-4xl mb-4">🔬</div>
+              <h3 className="text-2xl font-bold text-white mb-4">Data-Driven Experiments</h3>
               <p className="text-gray-300">
-                We've helped businesses increase their revenue by up to 300% through our data-driven strategies.
+                We run controlled marketing experiments to identify the most effective growth strategies.
               </p>
             </motion.div>
 
@@ -84,10 +84,10 @@ export default function Home() {
               whileHover={{ scale: 1.05 }}
               transition={{ type: "spring", stiffness: 300 }}
             >
-              <div className="text-purple-400 text-4xl mb-4">🎯</div>
-              <h3 className="text-2xl font-bold text-white mb-4">Targeted Strategies</h3>
+              <div className="text-purple-400 text-4xl mb-4">📊</div>
+              <h3 className="text-2xl font-bold text-white mb-4">Growth Analytics</h3>
               <p className="text-gray-300">
-                Our campaigns are tailored to your unique audience and business goals.
+                Advanced analytics to measure, predict, and optimize your marketing ROI.
               </p>
             </motion.div>
 
@@ -97,10 +97,10 @@ export default function Home() {
               whileHover={{ scale: 1.05 }}
               transition={{ type: "spring", stiffness: 300 }}
             >
-              <div className="text-purple-400 text-4xl mb-4">📈</div>
-              <h3 className="text-2xl font-bold text-white mb-4">Transparent Reporting</h3>
+              <div className="text-purple-400 text-4xl mb-4">🧪</div>
+              <h3 className="text-2xl font-bold text-white mb-4">Continuous Optimization</h3>
               <p className="text-gray-300">
-                Real-time dashboards keep you informed about campaign performance.
+                We constantly test and refine strategies to maximize your growth potential.
               </p>
             </motion.div>
           </div>
@@ -111,16 +111,16 @@ export default function Home() {
       <section className="py-32 bg-gradient-to-r from-purple-900/50 to-pink-900/50">
         <div className="max-w-4xl mx-auto px-4 text-center">
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-8">
-            Ready to Transform Your Business?
+            Ready to Apply Growth Science?
           </h2>
           <p className="text-xl text-gray-300 mb-12">
-            Let's create a custom strategy that drives real results for your brand.
+            Let's run experiments and optimize your marketing for maximum growth.
           </p>
           <a 
             href="/contact" 
             className="bg-purple-600 hover:bg-purple-700 text-white font-medium px-8 py-4 rounded-lg transition-colors"
           >
-            Schedule a Free Consultation
+            Start Your Growth Experiment
           </a>
         </div>
       </section>

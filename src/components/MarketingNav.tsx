@@ -9,7 +9,7 @@ export default function MarketingNav() {
         <div className="flex items-center justify-between h-20">
           <div className="flex items-center space-x-8">
             <Link href="/" className="text-2xl font-bold text-purple-400 hover:text-purple-300 transition-colors">
-              DigitalAgency
+              Growth Scientist
             </Link>
             
             <div className="hidden md:flex items-center space-x-6">
